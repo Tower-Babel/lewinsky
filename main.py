@@ -19,7 +19,8 @@ if page == "Home":
             st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
         st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 
-    def st_button(icon, url, label, iconsize):
+      
+   def st_button(icon, url, label, iconsize):
         if icon == 'cup':
             button_code = f'''
             <p>
@@ -54,7 +55,17 @@ if page == "Home":
 elif page == "Resources":
     st.header("Resources")
     st.write("This is the Resource page.")
-    
+
+      def displayPDF('paper.pdf'):
+          # Opening file from file path
+          with open(file, "rb") as f:
+              base64_pdf = base64.b64encode(f.read()).decode('utf-8')
+      
+          # Embedding PDF in HTML
+          pdf_display = F'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf"></iframe>' 
+      
+          # Displaying File
+          st.markdown(pdf_display, unsafe_allow_html=True) 
     
 
 elif page == "Project":
