@@ -43,7 +43,7 @@ if page == "Home":
     st.header('Team 1 Project')
 
     st.info(" Search dashboard the decomposes a complex text-to-SQL task "+
-            "into smaller sub-tasks using Large Language Model, Machine Learning, Opensearch and streamlit  ")
+            "into smaller sub-tasks using Large Language Model, Machine Learning, Opensearch and Streamlit  ")
     
 
     icon_size = 20
