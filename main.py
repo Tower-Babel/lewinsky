@@ -48,7 +48,7 @@ if page == "Home":
 
     icon_size = 20
 
-    st_button('github', 'https://github.com/Tower-Babel/lewinsky', 'Github', icon_size)
+    st_button('cup', 'https://github.com/Tower-Babel/lewinsky', 'Github', icon_size)
    
 
 elif page == "Resources":
