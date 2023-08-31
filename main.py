@@ -38,7 +38,7 @@ if page == "Home":
     load_css()
 
     col1, col2, col3 = st.columns(3)
-    col2.image(Image.open(''))
+    col2.image(Image.open('irobot.jpg'))
 
     st.header('Team 1 Project')
 
