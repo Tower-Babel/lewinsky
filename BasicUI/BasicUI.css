@@ -1,0 +1,51 @@
+/* This is the styling sheet for our [starter] Basic UI to help us get the rest of the project in progress */
+
+/* Basic clean styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Input box styling */
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+
+}
+
+/* Button styling */
+button {
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* While hovering over the button, it should change it's background color */
+button:hover {
+    opacity: 0.8;
+    background-color: darkblue;
+}
+
+/* Dark Mode Toggle - Defines the background and font color when toggled to 'dark mode' */
+.dark-mode {
+    background-color: #121212; /* Dark Grey (pretty sure at least) */
+    color: white;
+}
+.dark-mode input[type="text"],
+.dark-mode button {
+    background-color: #333;
+    color: white;
+}
