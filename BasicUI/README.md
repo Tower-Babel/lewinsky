@@ -34,6 +34,8 @@
 # 2. Use Streamlit to read data from Google Sheet;
 # 3. Connect UI to Streamlit
 
-#4. Implement case-insensitive search
-#5. Implement Autocomplete
-#6. Implement Trending Search
+# 4. Implement case-insensitive search
+# 5. Implement Autocomplete
+# 6. Implement Trending Search
+
+# 7. Implement schema to view search results
