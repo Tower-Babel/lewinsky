@@ -27,8 +27,13 @@
 # Lazy Loading / Pagination; Makes for a better user experience by reducing loadtimes / system resource usage
 # Keybaord Shortcuts; Speeds up navigation for experienced users
 # Mobile Responsiveness; Increase accessibility
+# Implement case-insensitive search; improves user experience by eliminating trivial differences. 
 
 # TODO:
 # 1. Set up Google Sheets with our data;
 # 2. Use Streamlit to read data from Google Sheet;
 # 3. Connect UI to Streamlit
+
+#4. Implement case-insensitive search
+#5. Implement Autocomplete
+#6. Implement Trending Search
